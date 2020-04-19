@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #cccccc;
+    height: 60px;
+}
+nav {
+    padding: 20px;
+    float: right;
+}
+.hero {
+    margin-bottom: 50px;
+}
+.bg-primary{
+background-color: #CCC;
+}
+.brand{
+    float: left;
+    margin: 0px;
+    padding: 3px;
+    font-size: 46px;
+    margin-left: 30px;
+}
+.brand a{
+    text-decoration: none;
+}
+.container{
+    min-height: 80vh;
+    margin: 20px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+.list ul {
+    list-style-type: none;
+}
+.list ul li {
+    padding: 20px;
+    border: solid 1px #ccc;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+.list ul li:hover {
+   background-color: burlywood;
+}
+
+.item {
+    width: 25%;
+}
+.item .title{
+    margin: 5px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.fitem .title{
+    margin: 5px;
+    background-color: #CCC;
+    padding: 50px;
+}
+
+.flist{
+    display: flex;
+    flex-direction: row;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"], .item {
+    float: left;
+    
+  }
+
+@media only screen and (min-width: 769px) {
+ 
+  .m-hide{
+      display: none;
+  }
+  .item {
+    width: 50%;
+}
+}
